@@ -9,7 +9,7 @@
 * bis 2014 - Eine Ausbildung zum Fachinformatiker Anwendungsentwicklung abgeschlossen
 * bis 2015 - Ein Jahr als Entwickler für Java-Backends und iOS (Objective-C/Swift) gearbeitet
 * ab Q3 2015 - Wechsel nach Leverkusen als iOS-Entwickler
-* Depressionen entwickelt und Diagnose des Asperger-Syndrom "Hochfunktionaler Autismus"
+* ab Q4 2015 - Depressionen entwickelt und Diagnose des Asperger-Syndrom bzw. "Hochfunktionaler Autismus"
 * seit 2017 - Rückkehr zur Arbeit als iOS-Entwickler
 
 ## Kontakt
