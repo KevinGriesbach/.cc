@@ -17,5 +17,5 @@
 
 
 ## Kontakt
-Eine kurze Mail an `(\vorname)@(\nachname).cc` genügt.  
+Eine kurze Mail an `\(vorname)@\(nachname).cc` genügt.  
 Alternativ geht es hier zu [meinem Xing Profil](https://www.xing.com/profile/Kevin_Griesbach/).
