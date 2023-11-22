@@ -17,6 +17,7 @@
 
 ### Part 3 - RTL Technology
 * ab September 2021 - Wechsel nach Köln als Senior Developer Native (iOS)
+* ab September 2023 - Wechsel ins Mobile Office und Umzug nach Böblingen
 
 
 ## Kontakt
