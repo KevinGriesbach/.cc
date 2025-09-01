@@ -15,9 +15,10 @@
 * ab Q4 2015 - Depressionen entwickelt und Diagnose des Asperger-Syndrom bzw. "Hochfunktionaler Autismus"
 * ab Q3 2017 - Rückkehr zur Arbeit als iOS-Entwickler
 
-### Part 3 - RTL Technology (ehemals CBC)
-* ab September 2021 - Wechsel nach Köln als Senior Developer Native (iOS)
+### Part 3 - RTL
+* ab September 2021 - Wechsel nach Köln als Senior Developer Native (iOS) in die CBC, später RTL Technology
 * ab September 2023 - Wechsel ins Mobile Office und Umzug nach Böblingen
+* ab September 2025 - Betriebsübergang in die RTL Streaming Deutschland GmbH
 
 
 ## Kontakt
