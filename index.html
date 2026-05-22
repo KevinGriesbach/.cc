@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kevin Griesbach — Senior iOS Developer based in Böblingen, Germany">
+  <title>Kevin Griesbach</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg__orb bg__orb--1"></div>
+    <div class="bg__orb bg__orb--2"></div>
+    <div class="bg__orb bg__orb--3"></div>
+    <div class="bg__grid"></div>
+  </div>
+
+  <div class="page">
+    <nav class="topbar">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-switch__btn is-active" data-lang="de" aria-pressed="true">DE</button>
+        <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero__photo-wrap">
+        <div class="hero__photo-frame">
+          <img class="hero__photo" src="Photo-New.jpeg" alt="" data-alt-de="Porträt von Kevin Griesbach" data-alt-en="Portrait of Kevin Griesbach">
+        </div>
+      </div>
+      <div class="hero__text">
+        <h1 class="hero__name">Kevin Griesbach</h1>
+        <p class="hero__role" data-i18n="role">Senior iOS-Entwickler</p>
+        <p class="hero__location">
+          <span data-i18n="location-prefix">Ansässig in</span>
+          <a href="https://maps.apple.com/?address=71032%20Boeblingen,%20Germany&t=h" target="_blank" rel="noopener noreferrer">Böblingen</a>
+        </p>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="panel" aria-labelledby="cv-heading">
+        <h2 id="cv-heading" class="panel__title" data-i18n="cv-title">Lebenslauf</h2>
+
+        <article class="timeline-block">
+          <header class="timeline-block__head">
+            <span class="timeline-block__label" data-i18n="part0-label">Part 0</span>
+            <h3 class="timeline-block__title" data-i18n="part0-title">Ausbildung &amp; Studium</h3>
+          </header>
+          <ul class="timeline">
+            <li data-i18n="part0-1">2005–2008 — Abitur in Baden-Württemberg</li>
+            <li data-i18n="part0-2">2008–2009 — Diplom-Informatik an der Uni Stuttgart, beendet, um in ein anderes Bundesland umzuziehen</li>
+            <li data-i18n="part0-3">2009–2011 — Bachelor-Informatik an der RWTH, beendet zugunsten der Ausbildung (Nebenjob Hiwi als PHP-Entwickler)</li>
+          </ul>
+        </article>
+
+        <article class="timeline-block">
+          <header class="timeline-block__head">
+            <span class="timeline-block__label">synaix</span>
+            <h3 class="timeline-block__title" data-i18n="part1-title">Fachinformatiker &amp; Full-Stack</h3>
+          </header>
+          <ul class="timeline">
+            <li data-i18n="part1-1">2011–2014 — Ausbildung zum Fachinformatiker Anwendungsentwicklung</li>
+            <li data-i18n="part1-2">2014–2015 — Entwickler für Java-Backends und iOS (Objective-C/Swift)</li>
+          </ul>
+        </article>
+
+        <article class="timeline-block">
+          <header class="timeline-block__head">
+            <span class="timeline-block__label">TriMeXa</span>
+            <h3 class="timeline-block__title" data-i18n="part2-title">iOS-Entwicklung</h3>
+          </header>
+          <ul class="timeline">
+            <li data-i18n="part2-1">Juli 2015 — Wechsel nach Leverkusen als iOS-Entwickler</li>
+            <li data-i18n="part2-2">September 2015 — Auszeit wegen Depressionen; später Diagnose Autismus (Asperger-Syndrom)</li>
+            <li data-i18n="part2-3">Juli 2017 — Rückkehr zur Arbeit als iOS-Entwickler</li>
+          </ul>
+        </article>
+
+        <article class="timeline-block">
+          <header class="timeline-block__head">
+            <span class="timeline-block__label" data-i18n="part3-label">RTL &amp; Bedrock Streaming</span>
+            <h3 class="timeline-block__title" data-i18n="part3-title">Senior Native iOS</h3>
+          </header>
+          <ul class="timeline">
+            <li data-i18n="part3-1">September 2021 — Senior Developer Native (iOS) bei der RTL Technology GmbH, Köln</li>
+            <li data-i18n="part3-2">September 2023 — Mobile Office und Umzug nach Böblingen</li>
+            <li data-i18n="part3-3">September 2025 — Ausgliederung der Streaming-Sparte aus der RTL Technology GmbH in die neu gegründete RTL Streaming Deutschland GmbH</li>
+            <li data-i18n="part3-4">Dezember 2025 — Umbenennung zur Bedrock Streaming Deutschland GmbH und Wechsel ins Bedrock Core Team (gemeinsame Mobile-Plattform)</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel panel--contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading" class="panel__title" data-i18n="contact-title">Kontakt</h2>
+        <p class="contact__lead">
+          <span data-i18n="contact-lead-before">Eine kurze Mail an </span><code class="contact__email-code" data-i18n="contact-email-code">\(vorname)@\(nachname).cc</code><span data-i18n="contact-lead-after"> genügt.</span>
+        </p>
+        <p class="contact__links">
+          <a href="https://www.xing.com/profile/Kevin_Griesbach/" target="_blank" rel="noopener noreferrer">Xing</a>
+          <span class="contact__sep" aria-hidden="true">·</span>
+          <a href="https://www.linkedin.com/in/kgriesbach/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
